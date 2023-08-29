@@ -1,3 +1,4 @@
+-- Active: 1693286877591@@127.0.0.1@5432@db_test
 -- ==================================
 -- ======= Database Operation =======
 -- ==================================
@@ -32,3 +33,16 @@
 
 -- DELETE TABLE
 -- DROP TABLE learners;
+
+
+-- ==================================
+-- = Table Operation with constants =
+-- ==================================
+
+
+CREATE TABLE "user" (
+      user_id INT PRIMARY KEY,
+      username VARCHAR(150) UNIQUE NOT NULL,
+      email VARCHAR(150) UNIQUE NOT NULL,
+      age INT DEFAULT 18
+)
