@@ -35,6 +35,9 @@ ALTER TABLE student RENAME TO learners;
 DROP TABLE learners;
 
 
+TRUNCATE TABLE user2
+
+
 -- ==================================
 -- = Table Operation with constants =
 -- ==================================
@@ -56,7 +59,7 @@ INSERT INTO user2 (user_id, username, email, age) VALUES ( 1, 'moriom', 'moriom@
 
 SELECT * FROM user2;
 
-TRUNCATE TABLE user2
+
 
 
 
