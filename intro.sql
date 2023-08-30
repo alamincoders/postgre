@@ -52,9 +52,11 @@ ALTER TABLE db_test RENAME TO user1;
 
 
 
-INSERT INTO user2 (user_id, username, email, age) VALUES ( 3, 'moriom', 'moriom@gmail.com', 21)
+INSERT INTO user2 (user_id, username, email, age) VALUES ( 1, 'moriom', 'moriom@gmail.com', 21)
 
 SELECT * FROM user2;
+
+TRUNCATE TABLE user2
 
 
 
