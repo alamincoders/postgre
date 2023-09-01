@@ -38,6 +38,9 @@ DROP TABLE learners;
 TRUNCATE TABLE user2
 
 
+
+
+
 -- ==================================
 -- = Table Operation with constants =
 -- ==================================
